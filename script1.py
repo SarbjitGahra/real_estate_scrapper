@@ -5,7 +5,7 @@ base_url="http://www.pythonhow.com/real-estate/rock-springs-wy/LCWYROCKSPRINGS/#
 l =[]
 for page in range (0, 30 , 10):
     url =base_url+str(page)+".html"
-    #req = requests.get("http://www.pythonhow.com/real-estate/rock-springs-wy/LCWYROCKSPRINGS/")
+    #req = requests.get("http://https://www.century21.com/real-estate/rock-spring-ga/LCGAROCKSPRING/")
     req =requests.get(url)
     req_content= req.content
     soup = BeautifulSoup(req_content, "html.parser")

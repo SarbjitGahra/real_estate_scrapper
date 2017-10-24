@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas
-base_url="http://www.pythonhow.com/real-estate/rock-springs-wy/LCWYROCKSPRINGS/#t=0&s="
+base_url="https://www.century21.com/real-estate/rock-spring-ga/LCGAROCKSPRING/"
 l =[]
 for page in range (0, 30 , 10):
     url =base_url+str(page)+".html"
